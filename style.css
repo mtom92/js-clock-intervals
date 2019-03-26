@@ -1,14 +1,32 @@
 #clock {
+  position: absolute;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #clock img {
 }
 
 #hour {
+   z-index: 1;
+   position: absolute;
+   transform: rotate(0deg);
 }
 
 #minute {
+  z-index: 2;
+  position: absolute;
+  transform: rotate(0deg);
 }
 
 #second {
+  z-index: 3;
+  position: absolute;
+  transform: rotate(0deg);
+}
+
+.hand{
+
 }
